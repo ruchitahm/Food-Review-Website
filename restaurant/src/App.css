@@ -1,0 +1,105 @@
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+
+.footer{
+  background-color: #D1C4E9;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+  padding:70px 30px 70px 30px;
+  margin:0px auto;
+  background: #9575CD ;
+  color:floralwhite;
+}
+
+address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+
+.navbar-dark {
+  background-color: #512DA8;
+}
+
+.mm{
+  border: 1px solid red;
+}
+
+.page-enter{
+  opacity: 0.01;
+  transform: translateX(-100%);
+}
+
+.page-enter-active{
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 300ms ease-in;
+}
+
+.page-exit{
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.page-exit-active{
+  opacity: 0.01;
+  transform: translateX(100%);
+  transition: all 300ms ease-out;
+}
+#msg{
+  color: #61b752;
+  margin-top: 20px;
+  display: block;
+}
+/* .fa-heart-o{
+  color: red;
+}
+.fa-heart{
+  color: #007bff;
+} */
+.about img{
+  width: 100px;
+  height: 100px;
+}
+.home .card-img {
+  height: 41vh;
+}
+#signupuser.hide{
+  display: none;
+}
+#signupuser{
+  display: inline-block;
+  margin-left: 2%;
+}
+#loginuser{
+  margin-left: -15%;
+}
+
+.menu_items .card-img {
+height: 54vh;
+}
+
+.menu_items_fav .card-img-top {
+  height: 52vh;
+  }
+
+.fav_item_dish .fav_item_dish_img{
+  width: 100px;
+  height: 100px;
+}
+@media only screen and (max-width: 600px){
+  #loginuser{
+    margin: 0 0 5% 0;
+  }
+}
